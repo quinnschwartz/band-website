@@ -1,0 +1,48 @@
+//Navbar
+
+.navbar {
+  border-radius: 0;
+  background-color: black;
+}
+
+a.navbar-brand {
+    img {
+      width: 40px;
+      margin-top: -9px;
+    }
+  }
+
+  .navbar-collapse, .collapse {
+    float: right;
+  }
+
+  ul.nav {
+    a {
+      color: rgb(106, 44, 118) !important;
+      font-family: monospace;
+    }
+    a:hover {
+      color: white !important;
+    }
+  }
+
+  //Title
+
+  @font-face {
+      font-family: elephantBlack;
+      src: url(../fonts/elephant-black);
+  }
+
+  h1 {
+    font-family: elephantBlack;
+    font-weight: bolder;
+    margin-left: 0;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(28, 130, 72);
+  }
+
+  img {
+    width: 80%;
+    margin: 0 10%;
+  }

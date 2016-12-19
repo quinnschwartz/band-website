@@ -6,6 +6,45 @@ html {
 
 * {
   box-sizing: border-box;
-  margin: 0; }
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }
+
+@font-face {
+  font-family: elephantBlack;
+  src: url(../fonts/Elephant-Black.ffil); }
+.navbar {
+  border-radius: 0;
+  background-color: black; }
+
+a.navbar-brand img {
+  width: 40px;
+  margin-top: -9px; }
+
+.navbar-collapse, .collapse {
+  float: right; }
+
+ul.nav a {
+  color: #6a2c76 !important;
+  font-family: monospace; }
+ul.nav a:hover {
+  color: white !important; }
+
+@font-face {
+  font-family: elephantBlack;
+  src: url(../fonts/elephant-black); }
+h1 {
+  font-family: elephantBlack;
+  font-weight: bolder;
+  margin-left: 0;
+  text-align: center;
+  font-size: 60px;
+  color: #1c8248; }
+
+img {
+  width: 80%;
+  margin: 0 10%; }
 
 /*# sourceMappingURL=main.css.map */
