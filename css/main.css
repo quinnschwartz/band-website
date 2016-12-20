@@ -10,11 +10,30 @@ html {
   padding: 0; }
 
 body {
-  background-color: black; }
+  background-color: black;
+  font-family: elephantBlack; }
 
 @font-face {
   font-family: elephantBlack;
   src: url("../fonts/Elephant-Black/Elephant-Black.ttf"); }
+footer {
+  margin-top: 100px;
+  color: #1c8248;
+  height: 200px;
+  color: #1c8248;
+  display: flex;
+  flex-direction: column; }
+  footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none; }
+    footer ul li {
+      list-style: none; }
+      footer ul li:hover {
+        color: #60e777;
+        cursor: pointer; }
+
 .navbar {
   border-radius: 0;
   background-color: black; }
@@ -37,7 +56,6 @@ ul.nav a:hover {
   src: url(../fonts/elephant-black); }
 h1 {
   font-family: elephantBlack;
-  font-weight: bolder;
   margin-left: 0;
   text-align: center;
   font-size: 15vw;
