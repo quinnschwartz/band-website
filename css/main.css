@@ -14,7 +14,7 @@ body {
 
 @font-face {
   font-family: elephantBlack;
-  src: url(../fonts/Elephant-Black.ffil); }
+  src: url("../fonts/Elephant-Black/Elephant-Black.ttf"); }
 .navbar {
   border-radius: 0;
   background-color: black; }
@@ -28,9 +28,9 @@ a.navbar-brand img {
 
 ul.nav a {
   color: #6a2c76 !important;
-  font-family: monospace; }
+  font-family: elephantBlack; }
 ul.nav a:hover {
-  color: white !important; }
+  color: #9e65a2 !important; }
 
 @font-face {
   font-family: elephantBlack;
