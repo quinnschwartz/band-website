@@ -26,44 +26,8 @@ nav {
     }
   }
 
-
-
-// bootstrap navbar code
-// .navbar {
-//   border-radius: 0;
-//   background-color: black;
-// }
-//
-// a.navbar-brand {
-//     img {
-//       width: 40px;
-//       margin-top: -9px;
-//     }
-//   }
-//
-//   .navbar-collapse, .collapse {
-//     float: right;
-//   }
-//
-//   ul.nav {
-//     a {
-//       color: rgb(106, 44, 118) !important;
-//       font-family: elephantBlack;
-//     }
-//     a:hover {
-//       color: rgb(158, 101, 162) !important;
-//     }
-//   }
-
-  //Title
-
-  @font-face {
-      font-family: elephantBlack;
-      src: url(../fonts/elephant-black);
-  }
-
   h1 {
-    font-family: elephantBlack;
+    font-family: $main-font;
     margin-left: 0;
     text-align: center;
     font-size: 14.7vw;
@@ -71,14 +35,17 @@ nav {
   }
 
   h2 {
-    font-family: elephantBlack;
+    font-family: $main-font;
     margin-left: 0;
     text-align: center;
     font-size: 7vw;
     color: rgb(106, 44, 118);
   }
 
-  .content-container img {
+  .content {
+    img {
     width: 80%;
     margin: 0 10%;
+    padding-bottom: 100px;
   }
+}
