@@ -31,31 +31,31 @@ nav {
 
   h1 {
     font-family: $header-font;
+    font-size: 15vw;
     text-align: center;
-    font-size: 14.7vw;
     color: rgb(28, 130, 72);
+  }
+
+  h1.secondary-color {
+    color: $secondary-color;
   }
 
   h2 {
     font-family: $main-font;
     text-align: center;
     font-size: 7vw;
-    color: rgb(106, 44, 118);
+    color: $secondary-color;
   }
 
   .content {
-    img {
-    width: 80%;
-    margin: 0 10%;
     padding-bottom: 100px;
-    position: absolute;
+    img {
+    width: 100%;
+    margin: auto;
+    border: 20px solid $navbar-bg-color;
   }
-  h3 {
-    position: relative;
-    color: rgb(106, 44, 118);
-    top: 250px;
-    left: 115px;
-    z-index: 1;
-    font-size: 30px;
-  }
+    p {
+      color: $secondary-color;
+      text-align: center;
+    }
 }

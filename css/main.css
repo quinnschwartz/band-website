@@ -6407,6 +6407,12 @@ body {
 @font-face {
   font-family: elephantMedium;
   src: url("../fonts/Elephant-Medium/Elephant-Medium.ttf"); }
+.content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-basis: auto; }
+
 footer {
   margin-top: 150px;
   height: 100px;
@@ -6446,6 +6452,9 @@ footer {
   border: .2px solid white; }
 .footer-nav ul li a {
   font-size: 15px; }
+@media screen and (max-width: 420px) {
+  .footer-nav {
+    display: none; } }
 
 nav {
   background-color: #d56765;
@@ -6462,9 +6471,12 @@ nav {
 
 h1 {
   font-family: elephantBlack;
+  font-size: 15vw;
   text-align: center;
-  font-size: 14.7vw;
   color: #1c8248; }
+
+h1.secondary-color {
+  color: #6a2c76; }
 
 h2 {
   font-family: elephantMedium;
@@ -6472,17 +6484,14 @@ h2 {
   font-size: 7vw;
   color: #6a2c76; }
 
-.content img {
-  width: 80%;
-  margin: 0 10%;
-  padding-bottom: 100px;
-  position: absolute; }
-.content h3 {
-  position: relative;
-  color: #6a2c76;
-  top: 250px;
-  left: 115px;
-  z-index: 1;
-  font-size: 30px; }
+.content {
+  padding-bottom: 100px; }
+  .content img {
+    width: 100%;
+    margin: auto;
+    border: 20px solid #d56765; }
+  .content p {
+    color: #6a2c76;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

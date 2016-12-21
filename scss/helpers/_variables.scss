@@ -8,6 +8,7 @@
 
 $navbar-bg-color: rgb(213, 103, 101);
 $main-color: rgb(28, 130, 72);
+$secondary-color: rgb(106, 44, 118);
 $links-color: white;
 
 
@@ -24,4 +25,4 @@ $main-font: elephantMedium;
 //media-queries
 $brk-tablet: 'screen and (min-width: 700px)';
 $brk-desktop: 'screen and (min-width: 1300px)';
-$brk-mobile: 'screen and (min-width: 420px)';
+$brk-mobile: 'screen and (max-width: 420px)';
