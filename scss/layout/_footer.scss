@@ -1,10 +1,10 @@
 footer {
   margin-top: 100px;
-  color: rgb(28, 130, 72);;
   height: 200px;
-  color: rgb(28, 130, 72);
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  background-color: $navbar-color;
 
   ul {
     display: flex;
@@ -12,16 +12,19 @@ footer {
     justify-content: space-around;
     text-decoration: none;
     li {
+      color: white !important;
       list-style: none;
+      a {
+        color: white;
+        i.fa {
+          width: 100px;
+        }
+      }
       &:hover {
         color: rgb(96, 231, 119);
         cursor: pointer;
+        list-style: none !important;
       }
     }
   }
-  // ul {
-  //   li {
-  //     display: inline;
-  //   }
-  // }
 }
