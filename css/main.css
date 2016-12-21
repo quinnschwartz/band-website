@@ -6360,6 +6360,26 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+.content-container .photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  @media screen and (min-width: 700px) {
+    .content-container .photo-gallery {
+      flex-direction: row; } }
+  .content-container .photo-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    transition: 0.3s ease; }
+    @media screen and (min-width: 700px) {
+      .content-container .photo-gallery img {
+        width: 30%;
+        margin-bottom: 20px; }
+        .content-container .photo-gallery img:hover {
+          transform: translate(100px, 20px); } }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6414,7 +6434,14 @@ h1 {
   font-size: 14.7vw;
   color: #1c8248; }
 
-img {
+h2 {
+  font-family: elephantBlack;
+  margin-left: 0;
+  text-align: center;
+  font-size: 7vw;
+  color: #6a2c76; }
+
+.content-container img {
   width: 80%;
   margin: 0 10%; }
 

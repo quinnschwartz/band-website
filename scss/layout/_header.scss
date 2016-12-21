@@ -14,7 +14,7 @@ nav {
         li {
           a {
             font-size: 20px !important;
-            
+
           }
         }
       }
@@ -64,7 +64,15 @@ nav {
     color: rgb(28, 130, 72);
   }
 
-  img {
+  h2 {
+    font-family: elephantBlack;
+    margin-left: 0;
+    text-align: center;
+    font-size: 7vw;
+    color: rgb(106, 44, 118);
+  }
+
+  .content-container img {
     width: 80%;
     margin: 0 10%;
   }

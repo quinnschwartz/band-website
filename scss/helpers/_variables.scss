@@ -15,5 +15,6 @@ $navbar-color: rgb(213, 103, 101);
 
 
 //media-queries
-$brk-medium: 'screen and (min-width: 1000px)';
-$brk-large: 'screen and (min-width: 1300px)';
+$brk-tablet: 'screen and (min-width: 700px)';
+$brk-desktop: 'screen and (min-width: 1300px)';
+$brk-mobile: 'screen and (min-width: 420px)';
