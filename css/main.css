@@ -6464,8 +6464,7 @@ h1 {
   font-family: elephantBlack;
   text-align: center;
   font-size: 14.7vw;
-  color: #1c8248;
-  margin-bottom: 12px; }
+  color: #1c8248; }
 
 h2 {
   font-family: elephantMedium;
@@ -6476,6 +6475,14 @@ h2 {
 .content img {
   width: 80%;
   margin: 0 10%;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  position: absolute; }
+.content h3 {
+  position: relative;
+  color: #6a2c76;
+  top: 250px;
+  left: 115px;
+  z-index: 1;
+  font-size: 30px; }
 
 /*# sourceMappingURL=main.css.map */
