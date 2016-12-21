@@ -2,23 +2,29 @@
 
 nav {
   background-color: $navbar-color;
+  height: 64px;
   .nav-wrapper {
     a.brand-logo {
       img {
         width: 60px;
         margin-top: 5px;
       }
-        }
+    }
+    a.button-collapse {
+      .material-icons {
+        margin-top: 4px;
+        font-size: 40px;
       }
-      ul {
-        li {
-          a {
-            font-size: 20px !important;
-
-          }
+      }
+    }
+    ul {
+      li {
+        a {
+          font-size: 20px !important;
         }
       }
     }
+  }
 
 
 

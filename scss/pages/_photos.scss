@@ -16,6 +16,9 @@
         width: 30%;
         margin-bottom: 20px;
         &:hover {
+          cursor: zoom-in;
+        }
+        &:active {
           transform: translate(100px, 20px);
         }
       }

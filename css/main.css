@@ -6378,6 +6378,8 @@ html {
         width: 30%;
         margin-bottom: 20px; }
         .content-container .photo-gallery img:hover {
+          cursor: zoom-in; }
+        .content-container .photo-gallery img:active {
           transform: translate(100px, 20px); } }
 
 * {
@@ -6417,10 +6419,14 @@ footer {
         list-style: none !important; }
 
 nav {
-  background-color: #d56765; }
+  background-color: #d56765;
+  height: 64px; }
   nav .nav-wrapper a.brand-logo img {
     width: 60px;
     margin-top: 5px; }
+  nav .nav-wrapper a.button-collapse .material-icons {
+    margin-top: 4px;
+    font-size: 40px; }
   nav ul li a {
     font-size: 20px !important; }
 
