@@ -6399,11 +6399,14 @@ html, body {
 
 body {
   background-color: black;
-  font-family: elephantBlack; }
+  font-family: elephantMedium; }
 
 @font-face {
   font-family: elephantBlack;
   src: url("../fonts/Elephant-Black/Elephant-Black.ttf"); }
+@font-face {
+  font-family: elephantMedium;
+  src: url("../fonts/Elephant-Medium/Elephant-Medium.ttf"); }
 footer {
   margin-top: 150px;
   height: 100px;
@@ -6424,13 +6427,25 @@ footer {
       color: white !important;
       list-style: none; }
       footer ul li a {
-        color: white; }
+        color: white;
+        transition: all .1s ease-in; }
+        footer ul li a:hover {
+          color: #1c8248; }
         footer ul li a i.fa {
-          width: 100px; }
-      footer ul li:hover {
-        color: #60e777;
-        cursor: pointer;
-        list-style: none !important; }
+          width: 100%; }
+
+.social-media {
+  margin: auto;
+  text-align: center;
+  width: 100%; }
+
+.footer-nav hr {
+  width: 93%;
+  margin: auto;
+  margin-bottom: 10px;
+  border: .2px solid white; }
+.footer-nav ul li a {
+  font-size: 15px; }
 
 nav {
   background-color: #d56765;
@@ -6442,18 +6457,18 @@ nav {
     margin-top: 4px;
     font-size: 40px; }
   nav ul li a {
-    font-size: 20px !important; }
+    font-size: 20px !important;
+    font-family: elephantBlack; }
 
 h1 {
   font-family: elephantBlack;
-  margin-left: 0;
   text-align: center;
   font-size: 14.7vw;
-  color: #1c8248; }
+  color: #1c8248;
+  margin-bottom: 12px; }
 
 h2 {
-  font-family: elephantBlack;
-  margin-left: 0;
+  font-family: elephantMedium;
   text-align: center;
   font-size: 7vw;
   color: #6a2c76; }

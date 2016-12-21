@@ -1,7 +1,7 @@
 //Navbar
 
 nav {
-  background-color: $navbar-color;
+  background-color: $navbar-bg-color;
   height: 64px;
   .nav-wrapper {
     a.brand-logo {
@@ -21,22 +21,22 @@ nav {
       li {
         a {
           font-size: 20px !important;
+          font-family: $header-font;
         }
       }
     }
   }
 
   h1 {
-    font-family: $main-font;
-    margin-left: 0;
+    font-family: $header-font;
     text-align: center;
     font-size: 14.7vw;
     color: rgb(28, 130, 72);
+    margin-bottom: 12px;
   }
 
   h2 {
     font-family: $main-font;
-    margin-left: 0;
     text-align: center;
     font-size: 7vw;
     color: rgb(106, 44, 118);

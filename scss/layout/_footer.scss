@@ -14,7 +14,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: $navbar-color;
+  background-color: $navbar-bg-color;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -30,14 +30,35 @@ footer {
       list-style: none;
       a {
         color: white;
+        transition: all .1s ease-in;
+        &:hover {
+          color: $main-color;
+        }
         i.fa {
-          width: 100px;
+          width: 100%;
         }
       }
-      &:hover {
-        color: rgb(96, 231, 119);
-        cursor: pointer;
-        list-style: none !important;
+    }
+  }
+}
+
+.social-media {
+  margin: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-nav {
+  hr {
+    width: 93%;
+    margin: auto;
+    margin-bottom: 10px;
+    border: .2px solid white;
+  }
+  ul {
+    li {
+      a {
+        font-size: 15px;
       }
     }
   }
