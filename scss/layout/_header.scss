@@ -2,16 +2,14 @@
 
 nav {
   background-color: $navbar-bg-color;
-  height: 64px;
   .nav-wrapper {
     a.brand-logo {
       img {
         width: 60px;
-        margin-top: 5px;
       }
     }
     a.button-collapse {
-      .material-icons {
+      i.material-icons {
         margin-top: 4px;
         font-size: 40px;
       }
@@ -25,7 +23,17 @@ nav {
         }
       }
     }
+    @media #{$brk-mobile} {
+      height: 82px;
+      .nav-wrapper {
+        a.brand-logo {
+          img {
+            width: 70px;
+          }
+        }
+    }
   }
+}
 
   //header
 
@@ -53,6 +61,9 @@ nav {
     width: 100%;
     margin: auto;
     border: 20px solid $navbar-bg-color;
+    @media #{$brk-mobile} {
+
+    }
   }
     p {
       color: $secondary-color;
