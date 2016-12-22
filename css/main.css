@@ -6429,14 +6429,11 @@ html {
 @font-face {
   font-family: elephantMedium;
   src: url("../fonts/Elephant-Medium/Elephant-Medium.ttf"); }
-.content {
-  text-align: center; }
-
 .container {
   width: 100%; }
 
 footer {
-  margin-top: 150px;
+  margin-top: 0;
   height: 100px;
   width: 100%;
   display: flex;
@@ -6468,10 +6465,10 @@ footer {
   width: 100%; }
 
 .footer-nav hr {
-  width: 93%;
+  width: 90%;
   margin: auto;
   margin-bottom: 10px;
-  border: .2px solid white; }
+  border: 0.2px solid rgba(255, 255, 255, 0.35); }
 .footer-nav ul li a {
   font-size: 15px; }
 @media screen and (max-width: 600px) {
@@ -6515,7 +6512,7 @@ h1 {
       font-size: 140px; } }
 
 h2 {
-  font-family: elephantMedium;
+  font-family: elephantBlack;
   text-align: center;
   font-size: 7vw;
   color: #1c8248;
@@ -6524,6 +6521,7 @@ h2 {
 
 #content {
   background-color: #d56765;
+  background-position: bottom;
   padding-bottom: 100px;
   position: relative;
   text-align: center; }
@@ -6533,22 +6531,25 @@ h2 {
     border: 20px solid #d56765; }
     @media screen and (min-width: 601px) {
       #content img {
-        width: 70%; } }
+        width: 70%;
+        padding-bottom: 50px; } }
     @media screen and (min-width: 932px) {
       #content img {
-        width: 50%; } }
-  @media screen and (min-width: 601px) {
-    #content {
-      background-image: url(../img/lasers.png);
-      background-position: bottom;
-      background-size: cover;
-      background-color: none; } }
+        width: 50%;
+        padding-bottom: 0; } }
 
 .content {
   padding-bottom: 100px;
-  position: relative;
   background-image: url(../img/lasers.png);
-  background-position: bottom;
   background-size: cover; }
+  .content p {
+    color: white;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    background-color: black;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 2em; }
 
 /*# sourceMappingURL=main.css.map */

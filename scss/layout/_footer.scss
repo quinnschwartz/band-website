@@ -1,6 +1,6 @@
 
 footer {
-  margin-top: 150px;
+  margin-top: 0;
   height: 100px;
   width: 100%;
   display: flex;
@@ -42,10 +42,10 @@ footer {
 
 .footer-nav {
   hr {
-    width: 93%;
+    width: 90%;
     margin: auto;
     margin-bottom: 10px;
-    border: .2px solid white;
+    border: .2px solid rgba(255, 255, 255, 0.35);
   }
   ul {
     li {
