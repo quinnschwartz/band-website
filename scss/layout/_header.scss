@@ -5,7 +5,7 @@ nav {
   .nav-wrapper {
     a.brand-logo {
       img {
-        width: 60px;
+        width: 70px;
       }
     }
     a.button-collapse {
@@ -28,7 +28,7 @@ nav {
       .nav-wrapper {
         a.brand-logo {
           img {
-            width: 70px;
+            width: 60px;
           }
         }
     }
@@ -49,12 +49,13 @@ nav {
     display: block;
 
     @media #{$brk-tablet} {
-        font-size: 13vw;
+        font-size: 14vw;
+    }
+    @media #{$brk-laptop} {
+        font-size: 11vw;
     }
     @media #{$brk-desktop} {
-      h1 {
-        font-size: 10vw;
-      }
+        font-size: 140px;
     }
   }
 
@@ -66,7 +67,7 @@ nav {
   }
 
   .content {
-    // padding-bottom: 100px;
+    padding-bottom: 100px;
     position: relative;
     img {
     width: 100%;
@@ -74,30 +75,12 @@ nav {
     margin-top: 0;
     border: 20px solid $navbar-bg-color;
     }
-    p {
-      color: rgb(126, 115, 238);
-      position: absolute;
-      font-size: 5vw;
-      left: 20%;
-      top: 66%;
-    }
     @media #{$brk-tablet} {
       img {
-        width: 60%;
+        width: 70%;
       }
     }
-    @media #{$brk-desktop} {
-      h1 {
-        font-size: 5vw;
-        transform: rotate(-90deg);
-        transform-origin: 10% 0%;
-      }
-      h1.secondary-color {
-        font-size: 9vw;
-        transform: rotate(-90deg);
-        transform-origin: 90% 20%;
-        float: right;
-      }
+    @media #{$brk-laptop} {
       img {
         width: 50%;
       }

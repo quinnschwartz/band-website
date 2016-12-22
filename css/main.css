@@ -6364,7 +6364,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 601px) {
     .content-container .photo-gallery {
       flex-direction: row; } }
   .content-container .photo-gallery img {
@@ -6373,7 +6373,7 @@ html {
     object-fit: contain;
     object-position: center;
     transition: 0.3s ease; }
-    @media screen and (min-width: 600px) {
+    @media screen and (min-width: 601px) {
       .content-container .photo-gallery img {
         width: 30%;
         margin-bottom: 20px; }
@@ -6402,10 +6402,18 @@ body {
   background-position: bottom;
   background-size: contain;
   background-repeat: no-repeat;
-  font-family: elephantMedium; }
-  @media screen and (min-width: 600px) {
+  font-family: elephantMedium;
+  max-width: 1280px;
+  margin: auto; }
+  @media screen and (min-width: 601px) {
     body {
       background-position: center; } }
+  @media screen and (min-width: 753px) {
+    body {
+      background-size: cover; } }
+
+html {
+  background-color: black; }
 
 @font-face {
   font-family: elephantBlack;
@@ -6440,7 +6448,7 @@ footer {
       list-style: none; }
       footer ul li a {
         color: white;
-        transition: all .1s ease-in; }
+        transition: all .2s ease-in; }
         footer ul li a:hover {
           color: #1c8248; }
         footer ul li a i.fa {
@@ -6465,7 +6473,7 @@ footer {
 nav {
   background-color: #d56765; }
   nav .nav-wrapper a.brand-logo img {
-    width: 60px; }
+    width: 70px; }
   nav .nav-wrapper a.button-collapse i.material-icons {
     margin-top: 4px;
     font-size: 40px; }
@@ -6476,7 +6484,7 @@ nav {
     nav {
       height: 82px; }
       nav .nav-wrapper a.brand-logo img {
-        width: 70px; } }
+        width: 60px; } }
 
 h1 {
   font-family: elephantBlack;
@@ -6488,12 +6496,15 @@ h1 {
   margin-bottom: 0;
   padding-top: 15px;
   display: block; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 601px) {
     h1 {
-      font-size: 13vw; } }
-  @media screen and (min-width: 1300px) {
-    h1 h1 {
-      font-size: 10vw; } }
+      font-size: 14vw; } }
+  @media screen and (min-width: 932px) {
+    h1 {
+      font-size: 11vw; } }
+  @media screen and (min-width: 1280px) {
+    h1 {
+      font-size: 140px; } }
 
 h2 {
   font-family: elephantMedium;
@@ -6502,31 +6513,17 @@ h2 {
   color: #6a2c76; }
 
 .content {
+  padding-bottom: 100px;
   position: relative; }
   .content img {
     width: 100%;
     margin: auto;
     margin-top: 0;
     border: 20px solid #d56765; }
-  .content p {
-    color: #7e73ee;
-    position: absolute;
-    font-size: 5vw;
-    left: 20%;
-    top: 66%; }
-  @media screen and (min-width: 600px) {
+  @media screen and (min-width: 601px) {
     .content img {
-      width: 60%; } }
-  @media screen and (min-width: 1300px) {
-    .content h1 {
-      font-size: 5vw;
-      transform: rotate(-90deg);
-      transform-origin: 10% 0%; }
-    .content h1.secondary-color {
-      font-size: 9vw;
-      transform: rotate(-90deg);
-      transform-origin: 90% 20%;
-      float: right; }
+      width: 70%; } }
+  @media screen and (min-width: 932px) {
     .content img {
       width: 50%; } }
 
