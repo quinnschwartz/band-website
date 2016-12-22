@@ -39,13 +39,23 @@ nav {
 
   h1 {
     font-family: $header-font;
-    font-size: 15vw;
+    font-size: 17vw;
     text-align: center;
-    color: rgb(28, 130, 72);
-  }
+    color: white;
+    background-color: $navbar-bg-color;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15px;
+    display: block;
 
-  h1.secondary-color {
-    color: $secondary-color;
+    @media #{$brk-tablet} {
+        font-size: 13vw;
+    }
+    @media #{$brk-desktop} {
+      h1 {
+        font-size: 10vw;
+      }
+    }
   }
 
   h2 {
@@ -56,32 +66,38 @@ nav {
   }
 
   .content {
-    padding-bottom: 100px;
+    // padding-bottom: 100px;
+    position: relative;
     img {
     width: 100%;
     margin: auto;
+    margin-top: 0;
     border: 20px solid $navbar-bg-color;
     }
+    p {
+      color: rgb(126, 115, 238);
+      position: absolute;
+      font-size: 5vw;
+      left: 20%;
+      top: 66%;
+    }
     @media #{$brk-tablet} {
-      h1 {
-        font-size: 13vw;
-      }
       img {
         width: 60%;
       }
     }
     @media #{$brk-desktop} {
-      // h1 {
-      //   font-size: 5vw;
-      //   transform: rotate(-90deg);
-      //   transform-origin: 10% 0%;
-      // }
-      // h1.secondary-color {
-      //   font-size: 9vw;
-      //   transform: rotate(-90deg);
-      //   transform-origin: 90% 20%;
-      //   float: right;
-      // }
+      h1 {
+        font-size: 5vw;
+        transform: rotate(-90deg);
+        transform-origin: 10% 0%;
+      }
+      h1.secondary-color {
+        font-size: 9vw;
+        transform: rotate(-90deg);
+        transform-origin: 90% 20%;
+        float: right;
+      }
       img {
         width: 50%;
       }

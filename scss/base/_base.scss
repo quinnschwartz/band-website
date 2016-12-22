@@ -20,9 +20,20 @@ html, body {
 
 // background images
 body {
-  background-color: black;
+  background-image: url(../img/lasers.png);
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
   font-family: $main-font;
+  @media #{$brk-tablet} {
+    background-position: center;
+  }
 }
+
+// background-position: center;
+// background-size: contain;
+// background-repeat: no-repeat;
+// font-family: $main-font;
 
 
 //middle content of body
