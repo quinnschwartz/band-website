@@ -3,11 +3,9 @@
 nav {
   background-color: $navbar-bg-color;
   .nav-wrapper {
-    a.brand-logo {
-      img {
+    img.brand-logo {
         width: 70px;
       }
-    }
     a.button-collapse {
       i.material-icons {
         margin-top: 4px;
@@ -26,10 +24,8 @@ nav {
     @media #{$brk-mobile} {
       height: 82px;
       .nav-wrapper {
-        a.brand-logo {
-          img {
+          img.brand-logo {
             width: 60px;
-          }
         }
     }
   }

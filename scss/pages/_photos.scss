@@ -13,13 +13,31 @@
       object-position: center;
       transition: 0.3s ease;
       @media #{$brk-tablet} {
-        width: 30%;
+        width: 50%;
         margin-bottom: 20px;
         &:hover {
           cursor: zoom-in;
         }
         &:active {
-          transform: translate(100px, 20px);
+          transform: scale(2);
+        }
+      }
+      @media #{$brk-laptop} {
+        width: 30%;
+        &:hover {
+          cursor: zoom-in;
+        }
+        &:active {
+          transform: scale(2);
+        }
+      }
+      @media #{$brk-desktop} {
+        width: 25%;
+        &:hover {
+          cursor: zoom-in;
+        }
+        &:active {
+          transform: scale(2);
         }
       }
     }

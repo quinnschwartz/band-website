@@ -6375,12 +6375,26 @@ html {
     transition: 0.3s ease; }
     @media screen and (min-width: 601px) {
       .content-container .photo-gallery img {
-        width: 30%;
+        width: 50%;
         margin-bottom: 20px; }
         .content-container .photo-gallery img:hover {
           cursor: zoom-in; }
         .content-container .photo-gallery img:active {
-          transform: translate(100px, 20px); } }
+          transform: scale(2); } }
+    @media screen and (min-width: 932px) {
+      .content-container .photo-gallery img {
+        width: 30%; }
+        .content-container .photo-gallery img:hover {
+          cursor: zoom-in; }
+        .content-container .photo-gallery img:active {
+          transform: scale(2); } }
+    @media screen and (min-width: 1280px) {
+      .content-container .photo-gallery img {
+        width: 25%; }
+        .content-container .photo-gallery img:hover {
+          cursor: zoom-in; }
+        .content-container .photo-gallery img:active {
+          transform: scale(2); } }
 
 * {
   box-sizing: border-box;
@@ -6472,7 +6486,7 @@ footer {
 
 nav {
   background-color: #d56765; }
-  nav .nav-wrapper a.brand-logo img {
+  nav .nav-wrapper img.brand-logo {
     width: 70px; }
   nav .nav-wrapper a.button-collapse i.material-icons {
     margin-top: 4px;
@@ -6483,7 +6497,7 @@ nav {
   @media screen and (max-width: 600px) {
     nav {
       height: 82px; }
-      nav .nav-wrapper a.brand-logo img {
+      nav .nav-wrapper img.brand-logo {
         width: 60px; } }
 
 h1 {
