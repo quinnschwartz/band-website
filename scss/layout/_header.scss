@@ -61,12 +61,29 @@ nav {
     width: 100%;
     margin: auto;
     border: 20px solid $navbar-bg-color;
-    @media #{$brk-mobile} {
-
+    }
+    @media #{$brk-tablet} {
+      h1 {
+        font-size: 13vw;
+      }
+      img {
+        width: 60%;
+      }
+    }
+    @media #{$brk-desktop} {
+      // h1 {
+      //   font-size: 5vw;
+      //   transform: rotate(-90deg);
+      //   transform-origin: 10% 0%;
+      // }
+      // h1.secondary-color {
+      //   font-size: 9vw;
+      //   transform: rotate(-90deg);
+      //   transform-origin: 90% 20%;
+      //   float: right;
+      // }
+      img {
+        width: 50%;
+      }
     }
   }
-    p {
-      color: $secondary-color;
-      text-align: center;
-    }
-}

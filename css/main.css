@@ -6364,7 +6364,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: center; }
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 600px) {
     .content-container .photo-gallery {
       flex-direction: row; } }
   .content-container .photo-gallery img {
@@ -6373,7 +6373,7 @@ html {
     object-fit: contain;
     object-position: center;
     transition: 0.3s ease; }
-    @media screen and (min-width: 700px) {
+    @media screen and (min-width: 600px) {
       .content-container .photo-gallery img {
         width: 30%;
         margin-bottom: 20px; }
@@ -6493,8 +6493,13 @@ h2 {
     width: 100%;
     margin: auto;
     border: 20px solid #d56765; }
-  .content p {
-    color: #6a2c76;
-    text-align: center; }
+  @media screen and (min-width: 600px) {
+    .content h1 {
+      font-size: 13vw; }
+    .content img {
+      width: 60%; } }
+  @media screen and (min-width: 860px) {
+    .content img {
+      width: 50%; } }
 
 /*# sourceMappingURL=main.css.map */
