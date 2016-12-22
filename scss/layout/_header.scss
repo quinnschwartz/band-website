@@ -59,26 +59,39 @@ nav {
     font-family: $main-font;
     text-align: center;
     font-size: 7vw;
-    color: $secondary-color;
+    color: $main-color;
+    margin: 0;
+    background-color: $navbar-bg-color;
+  }
+
+  #content {
+    background-color: $navbar-bg-color;
+    padding-bottom: 100px;
+    position: relative;
+    text-align: center;
+    img {
+      width: 100%;
+      margin-top: 0;
+      border: 20px solid $navbar-bg-color;
+      @media #{$brk-tablet} {
+        width: 70%;
+      }
+      @media #{$brk-laptop} {
+        width: 50%;
+      }
+    }
+    @media #{$brk-tablet} {
+      background-image: url(../img/lasers.png);
+      background-position: bottom;
+      background-size: cover;
+      background-color: none;
+    }
   }
 
   .content {
     padding-bottom: 100px;
     position: relative;
-    img {
-    width: 100%;
-    margin: auto;
-    margin-top: 0;
-    border: 20px solid $navbar-bg-color;
-    }
-    @media #{$brk-tablet} {
-      img {
-        width: 70%;
-      }
-    }
-    @media #{$brk-laptop} {
-      img {
-        width: 50%;
-      }
-    }
+    background-image: url(../img/lasers.png);
+    background-position: bottom;
+    background-size: cover;
   }

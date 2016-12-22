@@ -19,21 +19,25 @@ html, body {
 
 
 // background images
+body.homepage {
+  background-color: $navbar-bg-color;
+  background-image: none;
+}
+
+
 body {
-  background-image: url(../img/lasers.png);
-  background-position: bottom;
-  background-size: contain;
-  background-repeat: no-repeat;
+  // background-repeat: no-repeat;
   font-family: $main-font;
   max-width: 1280px;
   margin: auto;
-  @media #{$brk-tablet} {
-    background-position: center;
-  }
-  @media #{$brk-bg-adjust} {
-    background-size: cover;
-  }
 }
+//   @media #{$brk-tablet} {
+//     background-position: center;
+//   }
+//   @media #{$brk-bg-adjust} {
+//     background-size: cover;
+//   }
+// }
 
 html {
   background-color: black;
